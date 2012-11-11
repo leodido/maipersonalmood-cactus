@@ -5,8 +5,9 @@
    ========================================================================== */
 
 body {
-    background-color: #fafaf0;
+    background-color: #211b1b;
     font-family: 'Julius Sans One', sans-serif;
+    color: #fafaf0;
 }
 
 /*
@@ -15,11 +16,17 @@ h1 {
 }
 */
 
+/*
 .img-polaroid {
-    background-color: #fafaf0;
+    background-color: #211b1b;
 }
+*/
 
 .row {
+    text-align: center;
+}
+
+.row-fluid {
     text-align: center;
 }
 
