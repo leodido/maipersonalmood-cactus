@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Leonardo Di Donato -- Admin, Web Developer, Web Designer -- https://twitter.com/leodido -- https://github.com/leodido
 
 # THANKS
 
-    <name>
+    The teams of this projects: jQuery, HTML5 Boilerplate, Twitter Bootstrap, Respond.js, Modernizr, Font Awesome
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr
+    HTML5, CSS3, Javascript
+    jQuery, Modernizr, Twitter Bootsrap, Respond.js, Modernizr, Font Awesome
