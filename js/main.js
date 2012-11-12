@@ -57,7 +57,28 @@ $.wait = function(time) {
     });
 }
 
+// $.lightmenu = {
+//     init: function(id_name, default_opt) {
+//         var btns = $('#' + id_name + ' > .btn');
+//         var num_opts = btns.length;
+//         default_opt = typeof default_opt !== 'undefined' ? default_opt : 1;
+//         default_opt = default_opt > num_opts ? 1 : default_opt;
+//         btns.each(function(k, v) {
+//             $(v).click($.lightmenu.toggle);
+//         });
+//         // TODO: chiamare in toggle!
+//         $(btns[default_opt - 1]).addClass('active');
+//         $(btns[default_opt - 1]).addClass('disabled'); // TODO: disabilitare evento click (oltre alla classe che può anche essere rimossa)
+//     },
+//     toggle: function(evt) {
+//         console.log(evt);
+//         console.log('toggle called!');
+//     }
+// };
+
 $(function() {
+    // $.lightmenu.init('light-menu', 1);
+    
     var url = 'http://www.maipersonalmood.com';
 
     $.twitter.nshares(url).then(function(data) {
@@ -71,3 +92,4 @@ $(function() {
     });
 
 });
+
