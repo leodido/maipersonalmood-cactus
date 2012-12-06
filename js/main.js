@@ -91,5 +91,10 @@ $(function() {
         $('#facebook-shares').html(data);
     });
 
+    var buttons = $('#buttons > span').children().tooltip({
+        placement: 'top'
+    });
+
+
 });
 
