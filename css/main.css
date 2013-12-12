@@ -14,11 +14,19 @@ body {
     text-align: center;
 }
 
+a.uasc-icon {
+	padding-left: 12px;
+}
 
+a.uasc-icon span{
+	padding-left: 22px;
+	background: url("../img/uasc-18.png") no-repeat;
+	background-position: 0px 0px;
+}
 
+a.uasc-icon span {
 
-
-
+}
 
 
 
